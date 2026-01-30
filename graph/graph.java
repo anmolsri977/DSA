@@ -1,5 +1,6 @@
 import java.util.*;
 class graph{
+    //program to represent an undirected graph using adjacency matrix
     void main(String args[]){
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the no. of vertices");
@@ -8,7 +9,7 @@ class graph{
         int e=sc.nextInt();
         int adj[][]=new int[v][v];
         for(int i=0;i<e;i++){
-            System.out.println("Enter the edge "+(i+1));
+            System.out.println("Enter the end points(vertices) of edge "+(i+1));
             int a=sc.nextInt();
             int b=sc.nextInt();
             adj[a][b]=1;
