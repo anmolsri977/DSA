@@ -13,7 +13,7 @@ class graph{
             int a=sc.nextInt();
             int b=sc.nextInt();
             adj[a][b]=1;
-            adj[b][a]=1;
+            //adj[b][a]=1; for directed graph
         }
         for(int i=0;i<v;i++){
             for(int j=0;j<v;j++){
